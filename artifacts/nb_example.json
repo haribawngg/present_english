@@ -1,0 +1,80 @@
+{
+  "message": "miss call miss call khelat kintu opponent miss call dhort lage that d rule one with great phone receiv qualiti win",
+  "log_prior": {
+    "ham": -0.12449261116448461,
+    "spam": -2.145109534786622
+  },
+  "log_scores": {
+    "ham": -109.27679671761426,
+    "spam": -111.69509399536729
+  },
+  "terms": [
+    {
+      "token": "miss",
+      "count": 3,
+      "spam_log_odds_contribution": -4.129831362565318
+    },
+    {
+      "token": "call",
+      "count": 3,
+      "spam_log_odds_contribution": 4.089033275182981
+    },
+    {
+      "token": "receiv",
+      "count": 1,
+      "spam_log_odds_contribution": 2.3447707628300325
+    },
+    {
+      "token": "win",
+      "count": 1,
+      "spam_log_odds_contribution": 2.2761567509801184
+    },
+    {
+      "token": "that",
+      "count": 1,
+      "spam_log_odds_contribution": -2.1576498750409527
+    },
+    {
+      "token": "one",
+      "count": 1,
+      "spam_log_odds_contribution": -1.6447918200535314
+    },
+    {
+      "token": "d",
+      "count": 1,
+      "spam_log_odds_contribution": -1.1920391776604697
+    },
+    {
+      "token": "great",
+      "count": 1,
+      "spam_log_odds_contribution": -1.1364693265056598
+    },
+    {
+      "token": "phone",
+      "count": 1,
+      "spam_log_odds_contribution": 0.7606506583802215
+    },
+    {
+      "token": "qualiti",
+      "count": 1,
+      "spam_log_odds_contribution": 0.4729685859284416
+    },
+    {
+      "token": "rule",
+      "count": 1,
+      "spam_log_odds_contribution": -0.2201785946315038
+    },
+    {
+      "token": "with",
+      "count": 1,
+      "spam_log_odds_contribution": 0.13969976902476589
+    }
+  ],
+  "unknown_tokens": [
+    "dhort",
+    "khelat",
+    "kintu",
+    "lage",
+    "opponent"
+  ]
+}

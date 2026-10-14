@@ -1,0 +1,110 @@
+.evaluation-card {
+  margin-bottom:22px;
+}
+.table-scroll {
+  overflow:auto;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+  text-align:left;
+}
+th {
+  font-size:10px;
+  color:#98a3b5;
+  font-weight:500;
+  background:#f8fafd;
+}
+td,th {
+  padding:17px;
+  border-bottom:1px solid #ecf0f6;
+}
+td {
+  font-size:12px;
+}
+td b {
+  font-weight:500;
+}
+td small {
+  display:block;
+  font-size:9px;
+  color:#9aa5b5;
+  margin-top:7px;
+}
+select {
+  padding:8px;
+  border:1px solid #dee5f1;
+  background:#fff;
+  color:#5e7090;
+  border-radius:6px;
+  font-size:11px;
+}
+.card-heading label {
+  font-size:10px;
+  color:#8091ac;
+}
+.matrix-wrap {
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  gap:45px;
+  align-items:center;
+}
+.matrix-grid {
+  display:grid;
+  grid-template-columns:95px 1fr 1fr;
+  gap:8px;
+  text-align:center;
+  align-items:center;
+}
+.matrix-grid>span {
+  font-size:10px;
+  color:#8190a7;
+}
+.matrix-grid>div:not(:first-child) {
+  padding:24px 10px;
+  border-radius:8px;
+}
+.matrix-grid strong {
+  display:block;
+  font-size:24px;
+  font-weight:600;
+}
+.matrix-grid small {
+  font-size:9px;
+  display:block;
+  margin-top:5px;
+}
+.correct {
+  background:#eef4ff;
+  color:#577fc8;
+}
+.incorrect {
+  background:#fff5ed;
+  color:#c5956b;
+}
+.matrix-info h3 {
+  font-size:14px;
+  font-weight:500;
+}
+.matrix-info p {
+  font-size:11px;
+  line-height:1.9;
+  color:#8b98ad;
+}
+.matrix-info b {
+  font-weight:500;
+  color:#637791;
+}
+.spinner {
+  width:15px;
+  height:15px;
+  border:2px solid #ffffff60;
+  border-top-color:white;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform:rotate(360deg);
+  }
+}

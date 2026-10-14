@@ -1,0 +1,42 @@
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+
+# Downloaded language resources (setup downloads them again)
+nltk_data/
+
+# JavaScript dependencies and generated frontend build
+node_modules/
+.npm-cache/
+frontend/dist/
+*.tsbuildinfo
+
+# Keep the working baseline and full four-model artifacts in Git.
+# Ignore experimental/incomplete training runs only.
+artifacts_*/
+!artifacts_neural_verified/
+
+# Local credentials, logs and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Downloadable archives can be regenerated from source
+*.zip

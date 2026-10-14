@@ -1,0 +1,11 @@
+{
+  "name": "sms-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm --prefix frontend ci",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm --prefix frontend run build"
+  }
+}

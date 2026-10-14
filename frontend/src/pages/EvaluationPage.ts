@@ -1,0 +1,4 @@
+export function evaluationTemplate(): string {
+    return `<section id="evaluation-view" class="hidden"><div class="page-heading"><div><div class="eyebrow">MODEL EVALUATION</div><h1>Đo lường. So sánh. Hiểu rõ.</h1><p>Kết quả thực tế trên cùng tập test. Spam là lớp dương.</p></div><button id="download" class="secondary" disabled>↓ Tải metrics JSON</button></div><div class="card evaluation-card"><div class="card-heading"><h2>Hiệu suất các mô hình</h2><span class="soft-tag">Test split · 20%</span></div><div id="metrics-table" class="table-scroll"></div><p class="footnote">Neural Network giữ riêng 15% tập train làm validation. Kết quả của một split không đại diện cho mọi dữ liệu.</p></div><div class="card evaluation-card"><div class="card-heading"><h2>Confusion matrix</h2><label> Mô hình <select id="matrix-model"></select></label></div><div id="matrix"></div></div></section>
+`;
+}
